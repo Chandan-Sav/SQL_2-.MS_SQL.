@@ -99,7 +99,7 @@ CREATE DATABASE IF NOT EXISTS pizza db;
 
 -- Create table
 CREATE TABLE IF NOT EXISTS pizza_sales(
-	order_id VARCHAR(30) NOT NULL PRIMARY KEY,
+    order_id VARCHAR(30) NOT NULL PRIMARY KEY,
     pizza_name VARCHAR(50) NOT NULL,
     quantity VARCHAR(5) NOT NULL,
     order_date DATETIME NOT NULL,
