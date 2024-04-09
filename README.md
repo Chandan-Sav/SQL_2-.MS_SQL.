@@ -93,23 +93,4 @@ The dataset was obtained from the [Pizza Sales](https://www.kaggle.com/datasets/
 
 For the rest of the code, check the [SQL_queries.sql](https://github.com/Chandan-Sav/SQL_2-.MS_SQL./blob/main/pizza%20sales.sql) file
 
-```sql
--- Create database
-CREATE DATABASE IF NOT EXISTS pizza db;
 
--- Create table
-CREATE TABLE IF NOT EXISTS pizza_sales(
-    order_id VARCHAR(30) NOT NULL PRIMARY KEY,
-    pizza_name VARCHAR(50) NOT NULL,
-    quantity VARCHAR(5) NOT NULL,
-    order_date DATETIME NOT NULL,
-    order_time TIME NOT NULL,
-    unit_price DECIMAL(10,2) NOT NULL,
-    total_price DECIMAL(10,2) NOT NULL,
-    pizza_size VARCHAR(5) NOT NULL,
-    pizza_category VARCHAR(20) NOT NULL,
-    pizza_ingredients VARCHAR(150) NOT NULL,
-    pizza_name VARCHAR(15) NOT NULL,
-   
-);
-```
